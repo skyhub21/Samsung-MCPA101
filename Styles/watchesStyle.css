@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.promo-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.topPromo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-top: 80px;
+  background-image: url(../Images/Watchess/watch\ intro.webp);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 90%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.21);
+}
+.topPromo div,
+.middlePromo1-Div div,
+.middlePromo2-Div div {
+  width: 55%;
+}
+.promo1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 3px;
+  color: rgb(255, 249, 223);
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.434);
+  backdrop-filter: blur(2px);
+  z-index: 01; /* Adjust z-index to change stacking order */
+}
+
+.middlePromo1-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-top: 30px;
+  background-image: url(../Images/back8.webp);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 80%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.21);
+}
+.middlePromo2-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-top: 30px;
+  background-image: url(../Images/back7.webp);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 80%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.21);
+}
+
+.grid-Div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.grid1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.grid1:hover {
+  background-color: rgb(245, 233, 220);
+  box-shadow: 0px 0px 10px rgba(0, 30, 255, 0.4);
+}
+
+.grid2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.grid2:hover {
+  background-color: rgb(246, 233, 255);
+  box-shadow: 0px 0px 10px rgba(221, 0, 255, 0.4);
+}
+
+.grid3 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.grid3:hover {
+  background-color: rgb(221, 246, 255);
+  box-shadow: 0px 0px 10px rgba(0, 42, 255, 0.4);
+}
+
+.pic-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 300px;
+}
+.reviewPic {
+  height: 300px;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+.name-Div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.phoneName {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.info-Div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.info-Div p {
+  text-align: center;
+}
+.totalPrice {
+  font-weight: 800;
+  font-size: large;
+}
+
+.button-Div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.getNowButton {
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  background-color: black;
+  text-decoration: none;
+  border: 5px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+  align-content: center;
+  transition: 0.4s ease;
+}
+.grid1 a:hover {
+  color: black;
+  background-color: rgb(255, 235, 181);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+.grid2 a:hover {
+  color: black;
+  background-color: rgb(191, 103, 255);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+.grid3 a:hover {
+  color: black;
+  background-color: rgb(108, 150, 255);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.watchOut {
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.watcheVideo-Div {
+  height: 50dvh;
+  box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  overflow: hidden; /* Hide any overflow content */
+}
+.watcheVideo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

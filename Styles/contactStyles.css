@@ -1,0 +1,115 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(240, 250, 255);
+}
+
+.promo-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.topPromo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: rgb(228, 228, 228);
+  border-radius: 15px;
+  margin-top: 80px;
+  background-image: url(../Images/building3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 90%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.21);
+}
+.topPromo div {
+  width: 55%;
+}
+.promo1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 80px;
+  letter-spacing: 3px;
+  color: rgb(213, 213, 213);
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.434);
+  backdrop-filter: blur(2px);
+  z-index: 01; /* Adjust z-index to change stacking order */
+}
+.contactUsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: top;
+  margin-left: 30px;
+  margin-right: 30px;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+.contact-Div {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  padding: 10px 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+.contactInfo {
+  text-align: center;
+}
+
+/*TARGET SOCIAL MEDIA LINKS*/
+.followUs {
+  text-align: center;
+  letter-spacing: 4px;
+  margin-top: 15px;
+}
+.centerGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.socialColumns-Div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  column-gap: 1px;
+}
+.telegram-Div,
+.facebook-Div,
+.twitter-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  object-fit: contain;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.21);
+  transition: 0.3s ease;
+}
+.telegram-Div:hover,
+.facebook-Div:hover,
+.twitter-Div:hover {
+  background-color: rgb(0, 140, 255);
+  border-radius: 50px;
+}
+.telegram-Div {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.twitter-Div {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.icons {
+  height: 50px;
+  object-fit: contain;
+}

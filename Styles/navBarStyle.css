@@ -1,0 +1,104 @@
+/*THIS WILL TARGET ALL ELEMENTS*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/*THIS WILL TARGET ALL ELEMENTS WITHIN THE BODY*/
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*This will target the navigation bar as a contain how it should hanlde its contents*/
+.navBar {
+  background-color: white;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Creates Shadow effect with selected color and direction*/
+  display: flex;
+  flex-shrink: 1;
+  justify-content: space-around;
+  min-height: 8vh;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  z-index: 2; /* Adjust z-index to change stacking order */
+}
+/*This will target the anchor links list structure*/
+.navLinks {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*The structure of the actual anchor links*/
+.navLink,
+.dropDown li {
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navLink a {
+  /*The anchor links contained within the nav,ul,li section visual apearance*/
+  font-size: 18px;
+  height: 100%;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  padding: 20px 20px;
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+nav a:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(255, 255, 255);
+}
+/*This will target the logo container*/
+.logo {
+  margin-top: 15px;
+  height: 40px;
+  object-fit: contain;
+}
+.sam {
+  /*the samsung logo*/
+  height: 40px;
+}
+/*This will target the currently selected option (acnhor link) on the nav bar*/
+.active {
+  border-color: rgb(184, 184, 184);
+  border-style: dotted;
+}
+/*DROP DOWN EFFECTS*/
+.dropDown {
+  position: absolute;
+  padding: 2px;
+  margin-top: 275px;
+  background-color: rgb(170, 190, 209);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.dropDown li {
+  list-style: none;
+  height: 100%;
+  padding: 2px 2px;
+  justify-content: center;
+  border: none;
+}
+.services:hover .dropDown {
+  display: block;
+}
+.dropDownIcon {
+  transition: 0.4s ease;
+}
+.services:hover .dropDownIcon {
+  transform: rotate(180deg);
+}

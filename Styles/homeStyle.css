@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+.boldd {
+  margin-top: 70px;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+  height: 8dvh;
+  width: 100%;
+  object-fit: contain;
+}
+.intro {
+  background-color: black;
+  color: white;
+  padding: 1dvh 1vh;
+  border: 1px;
+  border-radius: 30px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 7px;
+}
+.box {
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+}
+.contentSection {
+  height: 70dvh;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+  background-image: url(../Images/back1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: right;
+}
+.info-Div {
+  border-radius: 25px;
+  border-bottom-left-radius: 150px;
+  border-top-left-radius: 15px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 8px;
+  background: rgba(0, 0, 0, 0.411);
+  box-shadow: 0px 0px 40px rgb(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  z-index: 1; /* Adjust z-index to change stacking order */
+}
+.contentInfo {
+  font-size: xx-small;
+  font-weight: 100;
+  text-align: right;
+  margin-top: 2%;
+  font-size: x-large;
+  color: rgb(255, 225, 254);
+  line-height: 40px;
+}
+
+.get {
+  font-weight: bold;
+  font-size: xx-large;
+  color: white;
+}
+.welcome {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-weight: 700;
+  border-radius: 25px;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+}
+
+.button-Div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(168, 154, 137);
+  font-size: large;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 10px;
+  border: solid;
+  border-color: rgb(168, 154, 137);
+  padding: 5px 5px;
+  transition: 0.4s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+.button:hover {
+  box-shadow: 0px 0px 10px rgba(168, 154, 137, 0.42);
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(168, 154, 137);
+  border-color: rgb(168, 154, 137);
+}
+
+.video-Div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+.homeVideo {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}

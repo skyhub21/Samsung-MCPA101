@@ -1,0 +1,151 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0%;
+}
+
+.devicesIntro {
+  background-image: url(../Images/back2.webp);
+  height: 40dvh;
+  width: 100%;
+  align-content: center;
+  justify-content: right;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  display: inline-block;
+}
+.devicesIntro h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.devicesIntro h2 {
+  margin-left: 30px;
+}
+.devicesIntro h3 {
+  margin-left: 30px;
+  letter-spacing: 10px;
+}
+
+.heading-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.heading1 {
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: xx-large;
+}
+
+.grid-Div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.grid1 {
+  background-color: azure;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.grid1:hover {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 30, 255, 0.4);
+}
+
+.grid2 {
+  background-color: rgb(246, 233, 255);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.grid2:hover {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(221, 0, 255, 0.4);
+}
+
+.grid3 {
+  background-color: rgb(255, 248, 239);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.grid3:hover {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(255, 230, 0, 0.4);
+}
+
+.pic-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 300px;
+}
+.reviewPic {
+  height: 300px;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+.name-Div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.phoneName {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.info-Div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.info-Div p {
+  text-align: center;
+}
+.totalPrice {
+  font-weight: 800;
+  font-size: large;
+}
+
+.button-Div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.getNowButton {
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  background-color: black;
+  text-decoration: none;
+  border: 5px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+  align-content: center;
+  transition: 0.4s ease;
+}
+.grid1 a:hover {
+  color: black;
+  background-color: rgb(181, 240, 255);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+.grid2 a:hover {
+  color: black;
+  background-color: rgb(191, 103, 255);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+.grid3 a:hover {
+  color: black;
+  background-color: rgb(255, 204, 108);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}

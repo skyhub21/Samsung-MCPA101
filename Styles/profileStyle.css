@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.promo-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topPromo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-top: 5px;
+  background-image: url(../Images/wallpaperbetter.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.21);
+}
+.topPromo div {
+  width: 55%;
+}
+.promo1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 3px;
+  color: rgb(234, 234, 234);
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.434);
+  backdrop-filter: blur(2px);
+  z-index: 01; /* Adjust z-index to change stacking order */
+}
+
+.profileGrid {
+  margin: 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.profile-Div {
+  display: grid;
+  justify-content: center;
+  align-items: top;
+  background-color: azure;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+}
+.pic-Div {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.profilePic {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 125px;
+}
+.profileInfo-Div {
+  text-align: center;
+}
+
+/*-------------NAVIGATION BAR SECTION ------- NAVIGATION BAR SECTION-------------*/
+/*This will target the navigation bar as a contain how it should hanlde its contents*/
+.navBar {
+  background-color: white;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Creates Shadow effect with selected color and direction*/
+  display: flex;
+  flex-shrink: 1;
+  justify-content: space-around;
+  min-height: 8vh;
+}
+/*This will target the anchor links list structure*/
+.navLinks {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*The structure of the actual anchor links*/
+.navLink,
+.dropDown li {
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navLink a {
+  /*The anchor links contained within the nav,ul,li section visual apearance*/
+  font-size: 18px;
+  height: 100%;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  padding: 20px 20px;
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+nav a:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(255, 255, 255);
+}
+/*This will target the logo container*/
+.logo {
+  margin-top: 15px;
+  height: 40px;
+  object-fit: contain;
+}
+.sam {
+  /*the samsung logo*/
+  height: 40px;
+}

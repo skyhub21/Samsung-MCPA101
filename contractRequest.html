@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contract Request</title>
+    <link rel="stylesheet" href="Styles/navBarStyle.css" />
+    <link rel="stylesheet" href="Styles/requestStyle.css" />
+  </head>
+  <body>
+    <!--NAVIGATION BAR-->
+    <nav class="navBar"> <!--Navigation bar as a container-->
+      <div class="logo"><img src="Images/samsung-logo.png" class="sam" /></div><!--Container for the samsung logo-->
+      <ul class="navLinks"> <!--Un-Ordered list container-->
+        
+        <li class="navLink">
+          <a href="index.html">HOME</a> <!--HOME-->
+        </li>
+
+        <li class="navLink services">
+          <a href="#" class="devicesDropDown">DEVICES <span class="dropDownIcon">&#11206</span></a> 
+          <ul class="dropDown">
+            <li>
+              <a href="devices.html">Phones</a>
+            </li>
+            <li>
+              <a href="laptop.html">Laptops</a>
+            </li>
+            <li>
+              <a href="watches.html">Watches</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="navLink">
+          <a href="about.html">ABOUT US</a>
+        </li>
+
+        <li class="navLink">
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+    <!--CONTENT SECTION-->
+    <div class="setView-Div">
+      <form class="form-Div">
+        <h2>Contract Request</h2>
+        <p>Enter your Name</p>
+        <input type="text" placeholder="Your Name" id="name" name="name" required />
+        <p>Enter your Surname</p>
+        <input type="text" placeholder="Your Surname" id="surname" name="surname" required/>
+        <p>Enter Cellphone No.</p>
+        <input type="text" placeholder="CellPhone Number" id="cellphone" name="cellphone" required/>
+        <p>Enter your Email</p>
+        <input type="text" placeholder="Email Address" id="email" name="email" required/>
+        <p>Enter your ID No.</p>
+        <input type="text" placeholder="Your ID Number" id="IDnumber" name="IDnumber" required/>
+        <div class="button-Div">
+          <div><button class="submit" onclick="emailjs">Submit</button></div>
+        </div>
+        <div class="terms-Div"><a href="terms.html">Terms & Conditions</a></div>
+      </form>
+    </div>
+  </body>
+</html>
